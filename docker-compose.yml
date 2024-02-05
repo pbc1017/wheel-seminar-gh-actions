@@ -10,4 +10,4 @@ services:
     container_name: watchtower
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-    command: --intervval 10 wheel-seminar-server
+    command: --interval 10 wheel-seminar-server
